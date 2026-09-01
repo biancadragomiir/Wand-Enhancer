@@ -6,11 +6,11 @@
 #include <stdio.h>
 #include <time.h>
 
-#define ENABLE_LOGGING 1
+#define ENABLE_LOGGING 0
 
 #ifndef _DEBUG
 #undef ENABLE_LOGGING
-#define ENABLE_LOGGING 1
+#define ENABLE_LOGGING 0
 #endif
 
 #define FUSE_SENTINEL_LENGTH    32
