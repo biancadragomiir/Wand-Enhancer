@@ -10,7 +10,7 @@
 
 #ifndef _DEBUG
 #undef ENABLE_LOGGING
-#define ENABLE_LOGGING 0
+#define ENABLE_LOGGING 1
 #endif
 
 #define FUSE_SENTINEL_LENGTH    32
